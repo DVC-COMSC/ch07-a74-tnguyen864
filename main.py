@@ -10,7 +10,7 @@ try:
         delIndex = numbers.index(delval)
         del numbers[delIndex]
 except ValueError:
-    print("Value does not exist in list.") 
+    numbers.clear()
 
 # Print updated list
 print (numbers)
